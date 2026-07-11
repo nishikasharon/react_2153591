@@ -4,7 +4,6 @@ import SearchPage from "./pages/SearchPage";
 
 import PropertyPage from "./pages/PropertyPage";
 
-
 function App(){
 
 
