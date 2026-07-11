@@ -4,7 +4,9 @@ useParams
 from "react-router-dom";
 
 
-import properties from "../data/properties.json";
+import propertiesData from "../data/properties.json";
+
+const properties = propertiesData.properties;
 
 
 import PropertyGallery 

@@ -39,29 +39,20 @@ FavouriteContext
 
 
 
-function dropHandler(e){
+function dropHandler(e) {
+  e.preventDefault();
 
+  const data = e.dataTransfer.getData("property");
 
-e.preventDefault();
+  if (!data) return; // nothing valid was dropped here, ignore it
 
-
-
-const property =
-JSON.parse(
-
-e.dataTransfer.getData(
-"property"
-)
-
-);
-
-
-
-addFavourite(property);
-
-
+  try {
+    const property = JSON.parse(data);
+    addFavourite(property);
+  } catch (error) {
+    console.error("Invalid drop data:", error);
+  }
 }
-
 
 
 function allowDrop(e){
@@ -86,7 +77,7 @@ onDragOver={allowDrop}
 
 
 >
-//Add a drop area on the search page
+
 
 
 
