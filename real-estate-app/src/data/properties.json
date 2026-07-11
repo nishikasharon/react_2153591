@@ -1,115 +1,171 @@
 {
-	"properties": [
-        {
-            "id":"prop1",
-			"type":"House",
-            "bedrooms":3,
-			"price":750000,
-			"tenure":"Freehold",
-			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
-			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
-			"picture":"images/prop1pic1small.jpg",
-			"url":"properties/prop1.html",
-            "added": {
-                "month":"October",
-                "day":12,
-                "year":2022
-            }
-        },
-		{
-            "id":"prop2",
-			"type":"Flat",
-            "bedrooms":2,
-			"price":399995,
-			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"picture":"images/prop2pic1small.jpg",
-			"url":"properties/prop2.html",
-            "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
-            }
-        },
-{
-    "id":"prop3",
-    "type":"House",
-    "bedrooms":5,
-    "price":925000,
-    "tenure":"Freehold",
-    "description":"A stunning five bedroom detached family residence located in a highly sought-after area. The property offers spacious living accommodation including a large reception room, modern fitted kitchen with dining area, utility room and downstairs WC. Upstairs there are five well-proportioned bedrooms including a master bedroom with en-suite, alongside a family bathroom. Further benefits include a private rear garden, garage, driveway parking, double glazing and gas central heating.",
-    "location":"Chislehurst Road, Chislehurst BR7",
-    "picture":"images/prop3pic1small.jpg",
-    "url":"properties/prop3.html",
-    "added":{
-        "month":"November",
-        "day":5,
-        "year":2022
+  "properties": [
+    {
+      "id": 1,
+      "type": "house",
+      "price": 550000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "postcode": "BR1",
+      "location": "Bromley",
+      "dateAdded": "2025-11-10",
+      "shortDescription": "Detached family house",
+      "description": "A beautifully presented four-bedroom detached family home with spacious accommodation, modern kitchen, landscaped garden and private driveway.",
+      "floorplan": "/properties/property1/floorplan.png",
+      "lat": 51.406,
+      "lng": 0.015,
+      "images": [
+        "/properties/property1/image1.jpg",
+        "/properties/property1/image2.jpg",
+        "/properties/property1/image3.jpg",
+        "/properties/property1/image4.jpg",
+        "/properties/property1/image5.jpg",
+        "/properties/property1/image6.jpg"
+      ]
+    },
+
+    {
+      "id": 2,
+      "type": "flat",
+      "price": 325000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "postcode": "BR2",
+      "location": "Bromley South",
+      "dateAdded": "2025-10-05",
+      "shortDescription": "Modern two-bedroom apartment",
+      "description": "A stylish two-bedroom apartment located close to Bromley South station. The property features an open-plan living area, contemporary kitchen, spacious bedrooms and allocated parking.",
+      "floorplan": "/properties/property2/floorplan.png",
+      "lat": 51.399,
+      "lng": 0.018,
+      "images": [
+        "/properties/property2/image1.jpg",
+        "/properties/property2/image2.jpg",
+        "/properties/property2/image3.jpg",
+        "/properties/property2/image4.jpg",
+        "/properties/property2/image5.jpg",
+        "/properties/property2/image6.jpg"
+      ]
+    },
+
+    {
+      "id": 3,
+      "type": "house",
+      "price": 875000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "postcode": "BR5",
+      "location": "Petts Wood",
+      "dateAdded": "2025-09-18",
+      "shortDescription": "Large five-bedroom family home",
+      "description": "An impressive five-bedroom detached property offering generous living space, a modern fitted kitchen, three bathrooms, garage and a large private rear garden. Situated close to excellent schools and transport links.",
+      "floorplan": "/properties/property3/floorplan.png",
+      "lat": 51.389,
+      "lng": 0.074,
+      "images": [
+        "/properties/property3/image1.jpg",
+        "/properties/property3/image2.jpg",
+        "/properties/property3/image3.jpg",
+        "/properties/property3/image4.jpg",
+        "/properties/property3/image5.jpg",
+        "/properties/property3/image6.jpg"
+      ]
+    },
+
+    {
+      "id": 4,
+      "type": "flat",
+      "price": 245000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "postcode": "SE20",
+      "location": "Penge",
+      "dateAdded": "2025-08-22",
+      "shortDescription": "One-bedroom modern flat",
+      "description": "A well-presented one-bedroom apartment ideal for first-time buyers or investors. Benefits include a modern kitchen, bright living space, secure entry system and excellent transport connections.",
+      "floorplan": "/properties/property4/floorplan.png",
+      "lat": 51.414,
+      "lng": -0.061,
+      "images": [
+        "/properties/property4/image1.jpg",
+        "/properties/property4/image2.jpg",
+        "/properties/property4/image3.jpg",
+        "/properties/property4/image4.jpg",
+        "/properties/property4/image5.jpg",
+        "/properties/property4/image6.jpg"
+      ]
+    },
+
+    {
+      "id": 5,
+      "type": "house",
+      "price": 625000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "postcode": "BR6",
+      "location": "Orpington",
+      "dateAdded": "2025-11-01",
+      "shortDescription": "Three-bedroom semi-detached house",
+      "description": "A charming three-bedroom semi-detached family home with spacious reception rooms, modern kitchen, private garden and driveway parking. Located near local amenities, schools and transport facilities.",
+      "floorplan": "/properties/property5/floorplan.png",
+      "lat": 51.373,
+      "lng": 0.097,
+      "images": [
+        "/properties/property5/image1.jpg",
+        "/properties/property5/image2.jpg",
+        "/properties/property5/image3.jpg",
+        "/properties/property5/image4.jpg",
+        "/properties/property5/image5.jpg",
+        "/properties/property5/image6.jpg"
+      ]
+    },
+
+    {
+      "id": 6,
+      "type": "flat",
+      "price": 450000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "postcode": "BR3",
+      "location": "Beckenham",
+      "dateAdded": "2025-07-15",
+      "shortDescription": "Spacious three-bedroom apartment",
+      "description": "A beautifully maintained three-bedroom apartment offering modern accommodation with a large living room, fitted kitchen, two bathrooms and private balcony. Close to shops, restaurants and transport links.",
+      "floorplan": "/properties/property6/floorplan.png",
+      "lat": 51.408,
+      "lng": -0.025,
+      "images": [
+        "/properties/property6/image1.jpg",
+        "/properties/property6/image2.jpg",
+        "/properties/property6/image3.jpg",
+        "/properties/property6/image4.jpg",
+        "/properties/property6/image5.jpg",
+        "/properties/property6/image6.jpg"
+      ]
+    },
+
+    {
+      "id": 7,
+      "type": "house",
+      "price": 1100000,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "postcode": "BR7",
+      "location": "Chislehurst",
+      "dateAdded": "2025-12-12",
+      "shortDescription": "Luxury six-bedroom detached house",
+      "description": "A prestigious six-bedroom detached residence offering exceptional family accommodation. Features include multiple reception rooms, luxury kitchen, home office, landscaped gardens, double garage and premium finishes throughout.",
+      "floorplan": "/properties/property7/floorplan.png",
+      "lat": 51.417,
+      "lng": 0.064,
+      "images": [
+        "/properties/property7/image1.jpg",
+        "/properties/property7/image2.jpg",
+        "/properties/property7/image3.jpg",
+        "/properties/property7/image4.jpg",
+        "/properties/property7/image5.jpg",
+        "/properties/property7/image6.jpg"
+      ]
     }
-},
-{
-    "id":"prop4",
-    "type":"Flat",
-    "bedrooms":1,
-    "price":275000,
-    "tenure":"Leasehold",
-    "description":"A modern one bedroom apartment situated close to excellent transport links and local amenities. The property features an open plan living and kitchen area, spacious double bedroom, contemporary bathroom and secure entry system. Additional benefits include allocated parking, double glazing and access to well-maintained communal gardens.",
-    "location":"High Street, Bromley BR1",
-    "picture":"images/prop4pic1small.jpg",
-    "url":"properties/prop4.html",
-    "added":{
-        "month":"August",
-        "day":22,
-        "year":2022
-    }
-},
-{
-    "id":"prop5",
-    "type":"House",
-    "bedrooms":4,
-    "price":680000,
-    "tenure":"Freehold",
-    "description":"Beautifully presented four bedroom terraced house offering excellent family accommodation. The ground floor provides two reception rooms, a modern kitchen and access to a private rear garden. The first floor includes four bedrooms and a family bathroom. Located near schools, shops and transport connections, this property is ideal for families looking for convenient London living.",
-    "location":"Station Road, Orpington BR6",
-    "picture":"images/prop5pic1small.jpg",
-    "url":"properties/prop5.html",
-    "added":{
-        "month":"December",
-        "day":3,
-        "year":2022
-    }
-},
-{
-    "id":"prop6",
-    "type":"Flat",
-    "bedrooms":3,
-    "price":525000,
-    "tenure":"Leasehold",
-    "description":"A spacious three bedroom apartment offering modern living in a desirable residential development. The accommodation includes a bright living room, fitted kitchen with integrated appliances, three bedrooms and two bathrooms. The property benefits from a private balcony, secure underground parking, lift access and excellent connections into central London.",
-    "location":"Victoria Road, Bromley BR2",
-    "picture":"images/prop6pic1small.jpg",
-    "url":"properties/prop6.html",
-    "added":{
-        "month":"July",
-        "day":18,
-        "year":2022
-    }
-},
-{
-    "id":"prop7",
-    "type":"House",
-    "bedrooms":6,
-    "price":1250000,
-    "tenure":"Freehold",
-    "description":"An impressive six bedroom detached executive home offering exceptional space and luxury throughout. The property includes multiple reception areas, a large modern kitchen, home office, utility room and six generous bedrooms including a master suite. Externally there is a landscaped garden, double garage and extensive driveway parking. Situated within a prestigious location close to outstanding schools and transport links.",
-    "location":"Windsor Avenue, Bromley BR1",
-    "picture":"images/prop7pic1small.jpg",
-    "url":"properties/prop7.html",
-    "added":{
-        "month":"October",
-        "day":30,
-        "year":2022
-    }
+  ]
 }
-]}
