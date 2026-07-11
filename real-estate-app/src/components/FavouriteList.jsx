@@ -76,7 +76,6 @@ return (
 
 <div
 
-
 className="favourites"
 
 
@@ -87,6 +86,7 @@ onDragOver={allowDrop}
 
 
 >
+//Add a drop area on the search page
 
 
 
