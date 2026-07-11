@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "@vitejs/plugin-react": "^6.0.3"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.18.1"
   }
 }
